@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<project name="HelloAnt" default="print-message">
+
+    <target name="print-message" depends="print-another-message">
+        <echo message="Hello Ant!"/>
+    </target>
+
+    <target name="print-another-message">
+        <echo message="Yet another message"/>
+    </target>
+
+</project>
